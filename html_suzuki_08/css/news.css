@@ -1,0 +1,14 @@
+body {
+    max-width: 1200px; /* ページの最大幅を1200pxに設定 */
+    margin: 0 auto; /* ページを水平方向に中央揃え */
+}
+
+.img{
+    
+    height: auto;
+}
+
+.text{
+    font-size: 12px;
+    text-align: center;
+}

@@ -1,0 +1,241 @@
+/* ここから下に記載していく */
+
+body {
+    max-width: 1200px; /* ページの最大幅を1200pxに設定 */
+    margin: 0 auto; /* ページを水平方向に中央揃え */
+}
+
+.header{
+    display: flex; /* 要素をフレックスボックスにする */
+            justify-content: space-between; /* 要素を均等に配置 */
+            align-items: center; /* 垂直方向に中央揃え */
+}
+
+/* チーズアカデミーTOKYOの画像の下に60px */
+/* 画像1200px、高さ調整 */
+.cheeseimg{
+    margin-bottom: 60px;
+}
+.cheeseimg01{
+    width: 1200px;
+    height: auto; /* 高さを自動調整 */
+}
+
+
+/* ABOUTのテキストを中央構え */
+.ABOUTtext{
+    text-align: center;
+}
+
+/* ABOUTの文字bold&オレンジ＆サイズ調整 */
+.ABOUT{
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+    margin-bottom: 30px;
+}
+
+/* ABOUT1の下に60px */
+.ABOUT1{
+    margin-bottom: 60px;
+}
+
+/* ABOUT2の下に30px */
+.ABOUT2{
+    margin-bottom: 30px;
+}
+
+/* ABOUT3の下に40px */
+.ABOUT3{
+    margin-bottom: 40px;
+}
+
+/* ABOUT4の下に40px */
+.ABOUT4{
+    margin-bottom: 40px;
+}
+
+/* ABOUT5の下に80px */
+.ABOUT5{
+    margin-bottom: 80px;
+}
+
+
+
+
+/* aboutimgの４枚を一列に並べる(ChatGPTに聞いたが上手くいかない) */
+.aboutimg{
+    display: flex;
+    margin-bottom: 60px;
+}
+/* 画像のサイズを調整 */
+.img01 {
+    width: 300px; /* 画像の幅を指定 */
+    height: auto; /* 高さを自動調整 */
+  }
+
+/* COURSEのテキストを中央構え */
+.COURSEtext{
+    text-align: center;
+}
+
+/* COURSEの文字を太字、下30px余白 */
+.COURSEtext1{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* COURSEの説明文の下60px余白 */
+.COURSEtext2{
+    margin-bottom: 60px;
+}
+
+/* 画像＋説明文の幅を1200pxに指定、中央水平 */
+.course11 {
+    display: flex;
+    width: 1200px; /* 合計幅を指定 */
+    justify-content: center;
+    align-items: center;
+}
+
+/* 内、画像は600px */
+.course12 {
+    width: 600px; /* 写真の幅を指定 */
+}
+
+/* 内、説明文は600px */
+.course13 {
+    width: 600px; /* 説明文の幅を指定 */
+    margin-left: 10px; 
+    text-align: center;
+}
+
+.course14 {
+    display: flex;
+    width: 1200px; /* 合計幅を指定 */
+    margin-bottom: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* NEWSのテキストを中央揃え */
+.newstext{
+    text-align: center;
+}
+
+/* NEWSをボールド、黄色 */
+.news01{
+    color: orange;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.news02{
+    margin-bottom: 60px;
+}
+
+.newsbg{
+    display: flex;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsbg01 {
+    width: calc(33.33% - 10px); /* 3つのiframeが1200px幅に収まるように調整 */
+    margin-bottom: 60px;
+    height: 340px; 
+}
+
+.showmore{
+    display: flex;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.ACCESS{
+    text-align: center;
+    background-color:#f5f5f5;
+}
+
+/* 会社情報ボールド、フォント指定 */
+.ACCESS01{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+/* 会社情報の下余白60px */
+.ACCESS02{
+    margin-bottom: 60px;
+}
+
+/* グーグルマップの下余白60px */
+.map{
+    margin-bottom: 60px;
+}
+
+
+
+
+    .contact-info {
+        max-width: 400px; /* コンタクト情報の最大幅を設定 */
+        margin: 0 auto; /* 水平方向に中央揃え */
+        margin-bottom: 60px;
+    }
+    
+    .contact-row {
+        display: flex; /* 要素を横並びに配置 */
+        width: 600px;
+        justify-content: flex-end; /* 要素を右揃えにする */
+        margin-bottom: 10px; /* 各行の下部マージンを設定 */
+    }
+    
+    .label {
+        width: 120px; /* ラベルの幅を設定 */
+        text-align: right; /* ラベルを右揃えにする */
+        margin-right: 10px; /* ラベルと値の間隔を設定 */
+    }
+    
+    .value {
+        flex: 1; /* 値の部分を最大限に広げる */
+        text-align: left; /* 値を左揃えにする */
+    }
+
+    .contact-row01 {
+        display: flex; /* 要素を横並びに配置 */
+        justify-content: flex-end; /* 要素を右揃えにする */
+        margin-bottom: 60px; /* 各行の下部マージンを設定 */
+    }
+
+    .CONTACT{
+        text-align: center;
+    }
+
+    .CONTACT01{
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .CONTACT02{
+        margin-bottom: 60px;
+    }
+
+    .CONTACT03{
+        margin-bottom: 30px;
+    }
+
+    .CONTACT04{
+        margin-bottom: 70px;
+    }
+
+    .googleform{
+        display: flex;
+        width: 1200px;
+
+    }
